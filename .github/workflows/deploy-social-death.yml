@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "Social_Death/**"
+      - ".github/scripts/**"
       - ".github/workflows/deploy-social-death.yml"
   workflow_dispatch:
     inputs:
