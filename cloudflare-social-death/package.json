@@ -1,0 +1,14 @@
+{
+  "name": "social-death-dashboard-deployment",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "check": "node ../.github/scripts/verify-social-death-release.mjs",
+    "deploy": "wrangler deploy --config wrangler.jsonc"
+  },
+  "devDependencies": {
+    "playwright": "1.56.1",
+    "wrangler": "4.154.0"
+  }
+}
+

@@ -1,0 +1,138 @@
+{
+  "dashboardVersion": "v056",
+  "controllingWorkflow": "v006",
+  "media": [
+    {
+      "id": "childHead",
+      "kind": "image",
+      "label": "Approved front identity",
+      "status": "creator-approved",
+      "source": "02_Character_Bible/Child_Kareem/P06_Identity_Master/02_Approved_Authority/Magnific/SD_P06_CHILD_KAREEM_MAGNIFIC_T01_C001_FRONT_R00_CREATOR_APPROVED_v001_2026-10-29.png",
+      "source_sha256": "28703268b6268f3f26c878a777a171c3d3def8d88196da6c069fd19a22e1da0a",
+      "display_sha256": "aa30c38891c58a7b325c48a771ea3b063c54880dea137c33ed0f8bde33244fcc",
+      "placement": "Child Kareem profile and current-media gallery",
+      "derivative": "JPEG display copy, maximum edge 1400px; source unchanged"
+    },
+    {
+      "id": "child3QL",
+      "kind": "image",
+      "label": "Approved anatomical-left three-quarter",
+      "status": "creator-approved",
+      "source": "02_Character_Bible/Child_Kareem/P06_Identity_Master/02_Approved_Authority/Magnific/SD_P06_CHILD_KAREEM_MAGNIFIC_T02_C001_3QL_R00_CREATOR_APPROVED_v001_2026-10-29.png",
+      "source_sha256": "b137677c9686059d99a40daa5e3bf40e90a193786d8e7b74fcd07bfc40ba83b9",
+      "display_sha256": "a381ce22800c88dd1e2a1b5f127989557c9a2589e1a9984620ec8eeed6e73588",
+      "placement": "Child Kareem profile and current-media gallery",
+      "derivative": "JPEG display copy, maximum edge 1400px; source unchanged"
+    },
+    {
+      "id": "child3QR",
+      "kind": "image",
+      "label": "Approved anatomical-right three-quarter",
+      "status": "creator-approved",
+      "source": "02_Character_Bible/Child_Kareem/P06_Identity_Master/02_Approved_Authority/Magnific/SD_P06_CHILD_KAREEM_MAGNIFIC_T02_C001_3QR_R00_CREATOR_APPROVED_v001_2026-10-29.png",
+      "source_sha256": "94f283c74bb3309730b66ec5b23e7c808efd0be15a640e14645bfff36fee6f8b",
+      "display_sha256": "53853a8c70c909a931dadbd3ccd35987f0476d55c3181f941dc02e6beda40add",
+      "placement": "Child Kareem profile and current-media gallery",
+      "derivative": "JPEG display copy, maximum edge 1400px; source unchanged"
+    },
+    {
+      "id": "childBody",
+      "kind": "image",
+      "label": "Approved neutral full body",
+      "status": "creator-approved",
+      "source": "02_Character_Bible/Child_Kareem/P06_Identity_Master/04_Full_Body_Identity/02_Approved_Authority/Magnific/SD_P06_CHILD_KAREEM_MAGNIFIC_T03_C001_FULL_BODY_R00_CREATOR_APPROVED_v001_2026-10-29.png",
+      "source_sha256": "f02c4253d7a1999706a292d79f107439d71a042af0611f0a854bc5b7a0cff162",
+      "display_sha256": "180c945d81b7c6ded80ed5ccb84fa85063f89ed85721fd8cba4e894bc5c1dafc",
+      "placement": "Child Kareem profile and current-media gallery",
+      "derivative": "JPEG display copy, maximum edge 1400px; source unchanged"
+    },
+    {
+      "id": "mirrorShot",
+      "kind": "image",
+      "label": "Approved SC03 Photoshop composite",
+      "status": "creator-approved",
+      "source": "02_Character_Bible/Child_Kareem/P06_Identity_Master/03_SC03_Mirror_Geometry/03_Child_Reflection_Proof/05_Final_Composite_Authority/Photoshop/SD_P06_SC03_CHILD_KAREEM_MAGNIFIC_IDENTITY_MIRROR_COMPOSITE_PS_R00_CREATOR_APPROVED_v001_2026-10-29.png",
+      "source_sha256": "07f3154b76b0c2535ca3c11cc299eb091bdfcf2a655604d020f5c7f311fc1cee",
+      "display_sha256": "54d2ae4eb74402feb510552431f14dac8b37d522d4fcc98b45d3c0b6d5c1be4d",
+      "placement": "Child Kareem profile and current-media gallery",
+      "derivative": "JPEG display copy, maximum edge 1400px; source unchanged"
+    },
+    {
+      "id": "T01",
+      "kind": "video",
+      "label": "SC03 Seedance T01",
+      "status": "GUARDIAN FAIL \u00b7 HISTORICAL DIAGNOSTIC",
+      "source": "07_AI_Generation_Records/P06/Child_Kareem/SC03_Mirror_Geometry/Seedance/Runs/T01/SD_P06_SC03_CHILD_KAREEM_MOTION_SEEDANCE25_T01_R00_GUARDIAN_FAIL_v001_2026-10-29.mp4",
+      "source_sha256": "50883418d7a9cdc6d7e9171b82bf05557c3251aa02f76f8cec865ae91dc5a293",
+      "display_sha256": "50883418d7a9cdc6d7e9171b82bf05557c3251aa02f76f8cec865ae91dc5a293",
+      "duration": 10.041667,
+      "width": 1280,
+      "height": 720,
+      "placement": "Current media / motion tests",
+      "derivative": "None; exact source clip"
+    },
+    {
+      "id": "T02",
+      "kind": "video",
+      "label": "SC03 Seedance T02",
+      "status": "GUARDIAN TIMING HOLD \u00b7 CURRENT TEST",
+      "source": "07_AI_Generation_Records/P06/Child_Kareem/SC03_Mirror_Geometry/Seedance/Runs/T02/SD_P06_SC03_CHILD_KAREEM_MOTION_SEEDANCE25_T02_R00_GUARDIAN_TIMING_HOLD_v001_2026-10-30.mp4",
+      "source_sha256": "7f0647c5ad7937c3521a1e7ace943a7db840d1bb7d8382d39efc5dbe76ee59dd",
+      "display_sha256": "7f0647c5ad7937c3521a1e7ace943a7db840d1bb7d8382d39efc5dbe76ee59dd",
+      "duration": 10.041667,
+      "width": 1280,
+      "height": 720,
+      "placement": "Current media / motion tests",
+      "derivative": "None; exact source clip"
+    }
+  ],
+  "source_records": [
+    {
+      "source": "00_Project_Admin/Automation/FILE_ROUTING_AND_APPROVAL_AUTOSAVE_RULE_v002_2026-10-30.md",
+      "source_sha256": "ce6f9867aae74e390e786147ff9cdb61ff8eec6fc122d4de471302fd3f78ac2f"
+    },
+    {
+      "source": "00_Project_Admin/Dashboard_Deployment/DASHBOARD_DEPLOYMENT_AUTOMATION_v006_2026-10-30.md",
+      "source_sha256": "15712b7cbff9adac56f4cbed9e46c94547cf4f49972eb9b905f93b2d3e7b0b26"
+    },
+    {
+      "source": "00_Project_Admin/DECISION_LOG_v076_2026-10-30.md",
+      "source_sha256": "8cc2830e78fbb5dc9fea5a530f3b28d3af812feebe124c20bcc16e08a6fcf908"
+    },
+    {
+      "source": "00_Project_Admin/CHANGELOG_v107_2026-10-30.md",
+      "source_sha256": "d7d8cb1d8cbf4371f1cb86964cb912dc78ed367fe9664c037ce647ceba7153ba"
+    },
+    {
+      "source": "00_Project_Admin/CURRENT_PROJECT_STATUS_v116_2026-10-30.md",
+      "source_sha256": "607063e92a128a87f383a2681864248c8a98a40639ccb893300a7c1ae233ba9c"
+    }
+  ],
+  "exclusions": [
+    {
+      "scope": "Historical R01/R02 child stills and rejected comparison/body trials",
+      "reason": "Superseded by the approved Magnific set and Photoshop composite; retained in source archive/history."
+    },
+    {
+      "scope": "Mirrored technical derivatives",
+      "reason": "Production transformations, not replacement identity masters; preserved in production folders."
+    }
+  ],
+  "release": "Social_Death_Production_Dashboard_v056_2026-10-30.html",
+  "release_sha256": "2028aee51e19ebf4acaef5115088b875120a0f4f082dfbd298dc609910076354",
+  "audit": {
+    "structural": true,
+    "browser": false,
+    "status": "local checks incomplete",
+    "checks": [
+      "HTML IDs unique",
+      "source and display SHA-256 matched",
+      "five JPEG displays decoded",
+      "two exact-source videos fully decoded with ffmpeg",
+      "latest control records embedded",
+      "current Child Kareem stale labels removed",
+      "native video controls present; no autoplay"
+    ],
+    "blocker": "Local HTTP preview binding denied (Operation not permitted); browser rejected file URL under its URL security policy. No workaround attempted. Desktop/mobile layout, viewer interaction and native playback remain unverified."
+  }
+}
