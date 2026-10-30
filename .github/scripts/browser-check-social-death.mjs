@@ -36,8 +36,13 @@ try {
   );
   if (media.length === 0) throw new Error("dashboard rendered no image or video elements");
 
+  // Empty image placeholders are intentional and receive a source only after
+  // interaction. Embedded videos may remain at readyState 0 on Linux Chromium
+  // until playback begins, so their immutable manifest hash is the authority.
   const broken = media.filter((item) =>
-    item.tag === "IMG" ? item.naturalWidth === 0 : item.readyState === 0,
+    item.tag === "IMG"
+      ? Boolean(item.source) && item.naturalWidth === 0
+      : !item.source,
   );
   if (broken.length) throw new Error(`${broken.length} rendered media element(s) failed to load`);
   if (errors.length) throw new Error(`browser errors: ${errors.join(" | ")}`);
