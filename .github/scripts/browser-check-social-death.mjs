@@ -1,6 +1,8 @@
 import { spawn } from "node:child_process";
 import process from "node:process";
-import { chromium } from "../../cloudflare-social-death/node_modules/playwright/index.js";
+import playwright from "../../cloudflare-social-death/node_modules/playwright/index.js";
+
+const { chromium } = playwright;
 
 const server = spawn("python3", ["-m", "http.server", "4173", "--directory", "."], {
   stdio: "ignore",
