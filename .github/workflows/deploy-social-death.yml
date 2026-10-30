@@ -28,7 +28,8 @@ env:
 jobs:
   verify-and-deploy:
     name: Verify, deploy, and confirm
-    runs-on: ubuntu-latest
+    # Playwright 1.56 does not support the newer Ubuntu 26 runner image yet.
+    runs-on: ubuntu-24.04
     timeout-minutes: 15
 
     steps:
